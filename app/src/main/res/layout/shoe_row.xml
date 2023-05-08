@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="shoeDataModel"
+            type="com.example.udacitystarter.shoeList.ShoeDataModel" />
+    </data>
+<!--This is the child view for the linear layout. Since we are using a Linear Layout in the original XML I decided to go with a Linear Layout for the child view as well.-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shoe_name"
+            android:text="@{shoeDataModel.name}"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shoe_location"
+            android:layout_gravity="start"
+            android:text="@{shoeDataModel.location}"
+            android:textAlignment="textStart"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shoe_gender"
+            android:text="@{shoeDataModel.gender}"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shoe_size"
+            android:text="@{Double.toString(shoeDataModel.size)}"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shoe_price"
+            android:layout_gravity="start"
+            android:text="@{Double.toString(shoeDataModel.price)}"
+            android:textAlignment="textStart"
+            android:textSize="24sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+</layout>

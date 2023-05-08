@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_text">Email</string>
+    <string name="email_hint">Enter Email Address</string>
+    <string name="password_text">Password</string>
+    <string name="new_login">Create New Login</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome to Shoe Finder</string>
+    <string name="existing_login">Existing Customer?</string>
+    <string name="new_customer_login">New to Shoe Finder?</string>
+    <string name="create_new_login">Create</string>
+    <string name="dream_shoe">Have a bunch of Shoes?
+    \n\Let\'s keep track of them all!
+    \n\Add shoes to the list in the next screen with the click of a button!</string>
+    <string name="search">Search</string>
+    <string name="instructions">Instructions</string>
+    <string name="red_bottom_shoe">redBottomShoeImage</string>
+    <string name="how_to">Here is how to use the app!</string>
+    <string name="step_one">Click the Red Button to add a New Shoe!</string>
+    <string name="step_two">Enter in all the details you want.</string>
+    <string name="step_three">And Save! It\'s that easy!</string>
+    <string name="faded_shoes">Faded Shoes</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="air_jordan_one">Air Jordan 1 Mid SE</string>
+    <string name="whiteadidas">ULTRABOOST 22 RUNNING SHOES</string>
+    <string name="blackasics">GEL-KAYANO 29 LITE-SHOW</string>
+    <string name="blackconverse">Chuck Taylor All Star Lift Platform Canvas</string>
+    <string name="purplereebok">Cardi B Club C V2 Women\'s Shoes</string>
+    <string name="redbottom">Kate 100mm Red Sole Pumps</string>
+    <string name="booties">Solanz Carolann Heeled Booties</string>
+    <string name="jimmychoo">Romy 85</string>
+    <string name="bluewingtip">Wingtip Lace-up Front Dress Shoes</string>
+    <string name="florsheim">Florsheim Midtown Cap Toe Oxford</string>
+    <string name="calvinklein">Brodie Lace Up Dress loafers</string>
+    <string name="shoe_detail">Shoe Detail</string>
+    <string name="profile">Create a New Profile!</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="match_shoe">Should Match Shoe</string>
+    <string name="back">Back To Shoes</string>
+    <string name="add_new">Add New Shoe</string>
+    <string name="log_out">Log Out</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="location">Store</string>
+    <string name="shoe_location">Where did you find the shoe?</string>
+    <string name="shoe_gender">Gender</string>
+    <string name="gender_type">Male/Female/Gender Neutral</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="details">Additional Details?</string>
+    <string name="details_">What else do you need to remember?</string>
+    <string name="save">Save</string>
+    <string name="found_shoe">Find a New Shoe?</string>
+    <string name="tell_us">Tell us about it!</string>
+    <string name="price">Price</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="shoe_price">How much?</string>
+    <string name="missing_data_title">Missing Data</string>
+    <string name="missing_data">One or More Fields are blank. Please input all data to save.</string>
+</resources>
